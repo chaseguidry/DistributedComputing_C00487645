@@ -1,0 +1,170 @@
+DistributedComputing_C00487645
+class_work
+logs.txt
+logsCopy.txt
+systems_command.sh
+DistributedComputing_C00487645
+class_work
+logs.txt
+systems_command.sh
+
+total 48
+drwx------. 6 ec2-user ec2-user 16384 Sep  4 20:17 .
+drwxr-xr-x. 3 root     root        22 Sep  3 13:37 ..
+-rw-------. 1 ec2-user ec2-user  2124 Sep  4 19:33 .bash_history
+-rw-r--r--. 1 ec2-user ec2-user    18 Jan 28  2023 .bash_logout
+-rw-r--r--. 1 ec2-user ec2-user   141 Jan 28  2023 .bash_profile
+-rw-r--r--. 1 ec2-user ec2-user   492 Jan 28  2023 .bashrc
+drwx------. 3 ec2-user ec2-user    20 Sep  4 19:11 .config
+-rw-r--r--. 1 ec2-user ec2-user    94 Sep  3 20:04 .gitconfig
+-rw-------. 1 ec2-user ec2-user    20 Sep  4 17:18 .lesshst
+drwx------. 2 ec2-user ec2-user    29 Sep  3 13:37 .ssh
+drwxr-xr-x. 3 ec2-user ec2-user    18 Sep  3 20:02 DistributedComputing_C00487645
+drwxr-xr-x. 2 ec2-user ec2-user     6 Sep  4 18:32 class_work
+-rw-r--r--. 1 ec2-user ec2-user   153 Sep  4 20:21 logs.txt
+-rwxr-xr-x. 1 ec2-user ec2-user   143 Sep  4 20:19 systems_command.sh
+
+/home/ec2-user
+
+Thu Sep  4 20:21:33 UTC 2025
+
+   September 2025
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30
+
+ 20:21:47 up 1 day,  6:44,  2 users,  load average: 0.16, 0.04, 0.01
+
+Linux ip-172-31-38-243.us-east-2.compute.internal 6.1.147-172.266.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Aug  7 19:30:40 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+    PID TTY          TIME CMD
+  82133 pts/0    00:00:00 bash
+  82167 pts/0    00:00:00 ps
+
+Created testTextFile
+
+This is the header of testTextFile
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+
+This is the tail of the testTextFile
+L11
+L12
+L13
+L14
+L15
+L16
+L17
+L18
+L19
+
+               total        used        free	  shared  buff/cache   available
+Mem:          926556	  195808      321576         444      409172	  590500
+Swap:              0           0           0
+Filesystem	 1K-blocks    Used Available Use% Mounted on
+devtmpfs              4096	 0	4096   0% /dev
+tmpfs               463276	 0    463276   0% /dev/shm
+tmpfs               185312     440    184872   1% /run
+/dev/nvme0n1p1     8310764 1704020   6606744  21% /
+tmpfs               463280	 0    463280   0% /tmp
+/dev/nvme0n1p128     10202    1314	8888  13% /boot/efi
+tmpfs                92652	 0     92652   0% /run/user/1000
+4	./.ssh
+80	./DistributedComputing_C00487645/.git/hooks
+4	./DistributedComputing_C00487645/.git/info
+0	./DistributedComputing_C00487645/.git/refs/heads
+0	./DistributedComputing_C00487645/.git/refs/tags
+0	./DistributedComputing_C00487645/.git/refs
+0	./DistributedComputing_C00487645/.git/objects/pack
+0	./DistributedComputing_C00487645/.git/objects/info
+0	./DistributedComputing_C00487645/.git/objects
+96	./DistributedComputing_C00487645/.git
+96	./DistributedComputing_C00487645
+0	./class_work
+0	./.config/procps
+0	./.config
+152     .
+
+ 20:38:38 up 1 day,  7:01,  2 users,  load average: 0.00, 0.00, 0.00
+
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+ec2-user pts/0     20:20    4.00s  0.06s  0.00s w
+ec2-user pts/1     19:33    1:26   0.07s  0.02s nano systems_command.sh
+
+; <<>> DiG 9.18.33 <<>> domain
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 23084
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;domain.                                IN	A
+
+;; AUTHORITY SECTION:
+.                       3329    IN	SOA     a.root-servers.net. nstld.verisign-grs.com. 2025090402 1800 900 604800 86400
+
+;; Query time: 0 msec
+;; SERVER: 172.31.0.2#53(172.31.0.2) (UDP)
+;; WHEN: Thu Sep 04 20:40:31 UTC 2025
+;; MSG SIZE  rcvd: 110
+
+
+; <<>> DiG 9.18.33 <<>> -x host
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14920
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;host.in-addr.arpa.             IN	PTR
+
+;; AUTHORITY SECTION:
+in-addr.arpa.           1275    IN	SOA     b.in-addr-servers.arpa. nstld.iana.org. 2025070904 1800 900 604800 3600
+
+;; Query time: 0 msec
+;; SERVER: 172.31.0.2#53(172.31.0.2) (UDP)
+;; WHEN: Thu Sep 04 20:41:10 UTC 2025
+;; MSG SIZE  rcvd: 114
+
+All contents of testTextFile using command cat
+This is the header of testTextFile
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+
+This is the tail of testTextFile
+L11
+L12
+L13
+L14
+L15
+L16
+L17
+L18
+L19
+
+Deleted testTextFile
+
+Create testDirective
+
+Delete testDirective
+
